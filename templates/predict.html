@@ -1,0 +1,97 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head> -->
+
+{% extends "master.html" %}
+
+{% block title %}
+Predict
+{% endblock %}
+
+{% block content %}
+<section class="sec-home-banner" id="large-header" style="overflow-y: scroll; overflow-x: scroll;">
+    <canvas id="demo-canvas"></canvas>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                    <div class="main-desc">
+                        <h2>Predict</h2>
+                        <!-- <p>The basic idea we had was to implement AI and Deep learning in a real-world scenario. , so that no one can reduce the quality of life of a regular person trying to live a simple life.</p> -->
+                
+
+                        <form action='/predict' method='POST'>
+                            <!-- City Name: <input type='text' name='city_name' class="city-name"><br>
+                            Class: {{result}} <br> -->
+                            <!-- <input type="submit" class="predict-submit" value="Predict"> -->
+                            <button class="btn btn-primary predict-submit" type="submit"
+                                        style="float: right;">Predict</button>   
+                        
+
+                            <div class="result-here">
+                                <p></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<body>
+    
+{% endblock %}
+
+{% block scripts %}
+<script>
+    $(document).on('click', '.predict-submit', function (e) {
+        e.preventDefault();
+
+        city_name = $('.city-name').val();
+        $('.result-here').html('<div class="e-loadholder">\
+            <div class="m-loader">\
+                <span class="e-text">Loading</span>\
+            </div>\
+        </div>');
+        // Send AJAX request to Flask server
+        $.ajax({
+            url: '/predictapi', // URL for your Flask route that handles the image upload
+            type: 'POST',
+            data: {"city_name":city_name},
+            success: function (response) {
+                // Handle success response
+                img_path = "http://127.0.0.1:5000/static/predict/"+response.path;
+                $('.result-here').html('<img src="'+img_path+'" alt="error in showing this image" width="1200px" height="1200px" style="margin:0; padding:0;">');
+                // $('.result-here').html("<h3>" + response.path + "</h3>");
+                
+                console.log(response);
+                console.log(response.path);
+                console.log(img_path);
+            },
+            error: function (error) {
+                // Handle error response
+                $('.result-here').html("<h3>" + error + "</h3>");
+
+                console.error("here", error);
+            }
+        });
+    });
+
+</script>
+
+<!-- </body> -->
+<!-- </html> -->
+
+
+
+{% endblock %}

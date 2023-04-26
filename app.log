@@ -1,0 +1,155 @@
+2023-04-15 19:18:50,764 - DEBUG - This is a debug message
+2023-04-15 19:20:27,894 - DEBUG - This is a debug message
+2023-04-15 19:42:11,094 - DEBUG - This is a debug message
+2023-04-15 19:42:13,356 - INFO - Api Here
+2023-04-15 19:42:13,362 - ERROR - name 'file' is not defined
+2023-04-15 19:44:01,080 - INFO - Api Here
+2023-04-15 19:44:01,081 - ERROR - name 'jsonify' is not defined
+2023-04-15 19:44:02,012 - INFO - Api Here
+2023-04-15 19:44:02,013 - ERROR - name 'jsonify' is not defined
+2023-04-15 19:45:27,884 - DEBUG - This is a debug message
+2023-04-15 19:45:31,949 - DEBUG - This is a debug message
+2023-04-15 19:45:35,233 - INFO - Api Here
+2023-04-15 19:45:54,452 - INFO - Api Here
+2023-04-15 19:45:55,856 - INFO - Api Here
+2023-04-15 19:45:58,599 - INFO - Api Here
+2023-04-15 19:46:00,486 - DEBUG - This is a debug message
+2023-04-15 19:46:02,877 - INFO - Api Here
+2023-04-15 19:46:04,783 - INFO - Api Here
+2023-04-15 19:46:05,614 - INFO - Api Here
+2023-04-15 19:46:08,033 - INFO - Api Here
+2023-04-15 20:13:17,458 - ERROR - name 'requests' is not defined
+2023-04-15 20:14:33,913 - INFO - {'path': 'my_63434454_plot.png', 'success': 'true'}
+2023-04-15 20:19:15,619 - INFO - {'path': 'my_59470166_plot.png', 'success': 'true'}
+2023-04-15 20:19:23,947 - INFO - {'path': 'my_29314358_plot.png', 'success': 'true'}
+2023-04-15 20:21:11,502 - INFO - {'path': 'my_47182312_plot.png', 'success': 'true'}
+2023-04-15 20:21:27,724 - INFO - {'path': 'my_10891126_plot.png', 'success': 'true'}
+2023-04-15 20:22:03,209 - INFO - {'path': 'my_79705101_plot.png', 'success': 'true'}
+2023-04-15 20:22:22,416 - INFO - {'path': 'my_93632998_plot.png', 'success': 'true'}
+2023-04-15 20:23:01,894 - INFO - {'path': 'my_22330506_plot.png', 'success': 'true'}
+2023-04-15 20:23:57,074 - INFO - my_46124813_plot.png
+2023-04-15 20:25:02,496 - INFO - {'path': 'my_90071191_plot.png', 'success': 'true'}
+2023-04-15 20:26:01,623 - INFO - {'path': 'my_96752602_plot.png', 'success': 'true'}
+2023-04-15 20:26:47,522 - INFO - {'path': 'my_22441343_plot.png', 'success': 'true'}
+2023-04-15 20:27:24,148 - INFO - {'path': 'my_91965983_plot.png', 'success': 'true'}
+2023-04-15 20:31:58,265 - INFO - {'path': 'my_92501551_plot.png', 'success': 'true'}
+2023-04-15 20:32:14,219 - INFO - {'path': 'my_68372220_plot.png', 'success': 'true'}
+2023-04-15 20:32:36,528 - INFO - {'path': 'my_11755898_plot.png', 'success': 'true'}
+2023-04-15 21:39:12,645 - INFO - apicall
+2023-04-15 21:40:01,281 - INFO - apicall
+2023-04-15 21:44:35,146 - INFO - apicall
+2023-04-15 21:44:35,182 - INFO - {'path': 'sdf', 'success': 'true'}
+2023-04-15 21:47:08,798 - INFO - apicall
+2023-04-15 21:50:43,291 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-15 21:53:55,261 - INFO - apicall
+2023-04-15 21:54:05,198 - INFO - {'path': 'my_65933568_plot.png', 'success': 'true'}
+2023-04-15 21:54:22,874 - INFO - apicall
+2023-04-15 21:54:36,225 - INFO - {'path': 'my_87204521_plot.png', 'success': 'true'}
+2023-04-15 21:54:55,919 - INFO - apicall
+2023-04-15 21:55:09,477 - INFO - {'path': 'my_13081482_plot.png', 'success': 'true'}
+2023-04-15 21:59:55,337 - INFO - apicall
+2023-04-15 22:00:07,022 - INFO - {'path': 'my_61999706_plot.png', 'success': 'true'}
+2023-04-24 14:45:02,681 - INFO - apicall
+2023-04-24 14:45:08,256 - INFO - {'path': 'my_69223013_plot.png', 'success': 'true'}
+2023-04-24 14:46:41,614 - INFO - apicall
+2023-04-24 14:46:47,431 - INFO - {'path': 'my_55909858_plot.png', 'success': 'true'}
+2023-04-24 14:54:14,525 - INFO - apicall
+2023-04-24 14:54:20,416 - INFO - {'path': 'my_51668376_plot.png', 'success': 'true'}
+2023-04-24 15:19:48,476 - INFO - apicall
+2023-04-24 15:19:54,448 - INFO - {'path': 'my_62042202_plot.png', 'success': 'true'}
+2023-04-24 15:41:01,945 - INFO - apicall
+2023-04-24 15:41:18,226 - INFO - {'path': 'my_93416736_plot.png', 'success': 'true'}
+2023-04-24 19:03:38,070 - INFO - apicall
+2023-04-24 19:03:57,055 - INFO - {'path': 'my_86900587_plot.png', 'success': 'true'}
+2023-04-24 19:04:11,973 - INFO - apicall
+2023-04-24 19:04:34,361 - INFO - {'path': 'my_99832654_plot.png', 'success': 'true'}
+2023-04-24 19:05:32,323 - INFO - apicall
+2023-04-24 19:05:55,262 - INFO - {'path': 'my_48485703_plot.png', 'success': 'true'}
+2023-04-24 19:07:32,495 - INFO - apicall
+2023-04-24 19:07:52,808 - INFO - {'path': 'my_24441705_plot.png', 'success': 'true'}
+2023-04-24 19:10:21,835 - INFO - apicall
+2023-04-24 19:10:46,053 - INFO - {'path': 'my_35874907_plot.png', 'success': 'true'}
+2023-04-24 19:11:04,783 - INFO - apicall
+2023-04-24 19:11:27,063 - INFO - {'path': 'my_34591247_plot.png', 'success': 'true'}
+2023-04-24 19:21:49,478 - INFO - apicall
+2023-04-24 19:22:11,240 - INFO - {'path': 'my_81461851_plot.png', 'success': 'true'}
+2023-04-25 20:50:12,192 - INFO - apicall
+2023-04-25 20:50:21,167 - INFO - {'path': 'my_99893595_plot.png', 'success': 'true'}
+2023-04-25 20:51:23,332 - INFO - apicall
+2023-04-25 20:51:30,967 - INFO - {'path': 'my_37751049_plot.png', 'success': 'true'}
+2023-04-25 20:52:01,443 - INFO - apicall
+2023-04-25 20:52:59,866 - INFO - apicall
+2023-04-25 20:53:07,225 - INFO - {'path': 'my_77112821_plot.png', 'success': 'true'}
+2023-04-25 21:01:23,580 - INFO - apicall
+2023-04-25 21:01:31,918 - INFO - {'path': 'my_94312720_plot.png', 'success': 'true'}
+2023-04-25 21:18:44,916 - INFO - apicall
+2023-04-25 21:18:52,373 - INFO - {'path': 'my_61783329_plot.png', 'success': 'true'}
+2023-04-25 21:20:16,021 - INFO - apicall
+2023-04-25 21:20:23,482 - INFO - {'path': 'my_53814066_plot.png', 'success': 'true'}
+2023-04-25 21:24:00,016 - INFO - apicall
+2023-04-25 21:24:07,933 - INFO - {'path': 'my_90998376_plot.png', 'success': 'true'}
+2023-04-25 21:24:49,793 - INFO - apicall
+2023-04-25 21:24:58,234 - INFO - {'path': 'my_60027549_plot.png', 'success': 'true'}
+2023-04-25 21:25:17,416 - INFO - apicall
+2023-04-25 21:25:25,618 - INFO - {'path': 'my_28745910_plot.png', 'success': 'true'}
+2023-04-25 21:25:36,745 - INFO - apicall
+2023-04-25 21:25:44,346 - INFO - {'path': 'my_38388410_plot.png', 'success': 'true'}
+2023-04-25 21:26:43,574 - INFO - apicall
+2023-04-25 21:26:52,261 - INFO - {'path': 'my_34483797_plot.png', 'success': 'true'}
+2023-04-25 21:28:09,809 - INFO - apicall
+2023-04-25 21:28:18,350 - INFO - {'path': 'my_88138595_plot.png', 'success': 'true'}
+2023-04-25 21:28:34,650 - INFO - apicall
+2023-04-25 21:28:42,371 - INFO - {'path': 'my_53391094_plot.png', 'success': 'true'}
+2023-04-25 21:28:56,891 - INFO - apicall
+2023-04-25 21:29:04,181 - INFO - {'path': 'my_70176889_plot.png', 'success': 'true'}
+2023-04-25 21:29:13,008 - INFO - apicall
+2023-04-25 21:29:21,400 - INFO - {'path': 'my_91693736_plot.png', 'success': 'true'}
+2023-04-25 21:29:42,940 - INFO - apicall
+2023-04-25 21:29:50,891 - INFO - {'path': 'my_16895403_plot.png', 'success': 'true'}
+2023-04-25 21:30:54,009 - INFO - apicall
+2023-04-25 21:31:02,339 - INFO - {'path': 'my_49637046_plot.png', 'success': 'true'}
+2023-04-25 21:31:21,062 - INFO - apicall
+2023-04-25 21:31:28,224 - INFO - {'path': 'my_96575954_plot.png', 'success': 'true'}
+2023-04-25 21:32:13,719 - INFO - apicall
+2023-04-25 21:32:21,361 - INFO - {'path': 'my_93237291_plot.png', 'success': 'true'}
+2023-04-25 21:33:53,194 - INFO - apicall
+2023-04-25 21:34:00,844 - INFO - {'path': 'my_49755823_plot.png', 'success': 'true'}
+2023-04-25 21:34:54,959 - INFO - apicall
+2023-04-25 21:35:03,256 - INFO - {'path': 'my_33730429_plot.png', 'success': 'true'}
+2023-04-25 21:35:38,756 - INFO - apicall
+2023-04-25 21:35:46,359 - INFO - {'path': 'my_33293781_plot.png', 'success': 'true'}
+2023-04-25 21:39:23,663 - INFO - apicall
+2023-04-25 21:39:32,051 - INFO - {'path': 'my_21255313_plot.png', 'success': 'true'}
+2023-04-25 21:40:17,908 - INFO - apicall
+2023-04-25 21:40:24,985 - INFO - {'path': 'my_22164801_plot.png', 'success': 'true'}
+2023-04-25 21:41:16,730 - INFO - apicall
+2023-04-25 21:41:24,858 - INFO - {'path': 'my_31347439_plot.png', 'success': 'true'}
+2023-04-25 21:42:13,399 - INFO - apicall
+2023-04-25 21:42:20,875 - INFO - {'path': 'my_87598670_plot.png', 'success': 'true'}
+2023-04-25 21:42:40,703 - INFO - apicall
+2023-04-25 21:42:48,815 - INFO - {'path': 'my_25087501_plot.png', 'success': 'true'}
+2023-04-25 21:42:50,240 - INFO - apicall
+2023-04-25 21:42:58,496 - INFO - {'path': 'my_13166750_plot.png', 'success': 'true'}
+2023-04-25 21:43:11,423 - INFO - apicall
+2023-04-25 21:43:20,271 - INFO - {'path': 'my_30333954_plot.png', 'success': 'true'}
+2023-04-25 21:43:39,882 - INFO - apicall
+2023-04-25 21:43:47,463 - INFO - {'path': 'my_35278562_plot.png', 'success': 'true'}
+2023-04-25 21:44:26,845 - INFO - apicall
+2023-04-25 21:44:34,907 - INFO - {'path': 'my_24518765_plot.png', 'success': 'true'}
+2023-04-25 21:45:34,816 - INFO - apicall
+2023-04-25 21:45:34,885 - INFO - apicall
+2023-04-25 21:45:50,695 - INFO - {'path': 'my_46234816_plot.png', 'success': 'true'}
+2023-04-25 21:45:50,907 - INFO - {'path': 'my_71499448_plot.png', 'success': 'true'}
+2023-04-25 21:46:21,747 - INFO - apicall
+2023-04-25 21:46:30,912 - INFO - {'path': 'my_11310969_plot.png', 'success': 'true'}
+2023-04-25 21:46:45,278 - INFO - apicall
+2023-04-25 21:46:53,374 - INFO - {'path': 'my_10160936_plot.png', 'success': 'true'}
+2023-04-25 21:47:07,048 - INFO - apicall
+2023-04-25 21:47:15,213 - INFO - {'path': 'my_72756776_plot.png', 'success': 'true'}
+2023-04-25 22:09:10,825 - INFO - apicall
+2023-04-25 22:09:19,704 - INFO - {'path': 'my_45384527_plot.png', 'success': 'true'}
+2023-04-26 14:23:45,572 - INFO - apicall
+2023-04-26 14:23:47,617 - ERROR - HTTPConnectionPool(host='192.168.100.8', port=5000): Max retries exceeded with url: /predict (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018436F84820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-04-26 14:25:23,653 - INFO - apicall
+2023-04-26 14:25:30,945 - INFO - {'path': 'my_21962131_plot.png', 'success': 'true'}
+2023-04-26 14:27:30,250 - INFO - apicall
