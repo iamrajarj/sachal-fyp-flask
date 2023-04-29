@@ -168,3 +168,20 @@
 2023-04-30 01:01:51,978 - INFO - apicall
 2023-04-30 01:02:38,436 - INFO - {'path': {'model1': 'test-model1-38889013_plot.png', 'model2': 'test-model2-38889013_plot.png', 'model3': 'test-model3-38889013_plot.png'}, 'success': 'true'}
 2023-04-30 01:02:46,542 - INFO - {'path': {'model1': 'test-model1-92410643_plot.png', 'model2': 'test-model2-92410643_plot.png', 'model3': 'test-model3-92410643_plot.png'}, 'success': 'true'}
+2023-04-30 01:20:42,606 - INFO - apicall
+2023-04-30 01:21:59,340 - INFO - apicall
+2023-04-30 01:23:59,218 - INFO - apicall
+2023-04-30 01:27:12,715 - INFO - apicall
+2023-04-30 01:28:43,187 - INFO - apicall
+2023-04-30 01:34:29,081 - INFO - apicall
+2023-04-30 01:37:42,137 - INFO - apicall
+2023-04-30 01:43:16,029 - INFO - apicall
+2023-04-30 01:44:21,692 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-30 01:44:21,692 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-30 01:44:21,692 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-30 01:44:21,695 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-30 01:44:21,695 - ERROR - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2023-04-30 01:48:10,206 - INFO - apicall
+2023-04-30 01:48:38,664 - INFO - {'path': {'model1': 'test-model1-45485460_plot.png', 'model2': 'test-model2-45485460_plot.png', 'model3': 'test-model3-45485460_plot.png'}, 'success': 'true'}
+2023-04-30 01:51:44,636 - INFO - apicall
+2023-04-30 01:52:23,948 - INFO - {'path': {'mod1': 'test-model4-53107130_plot.png', 'mod2': 'test-model2-53107130_plot.png', 'mod3': 'test-model5-53107130_plot.png'}, 'success': 'true'}

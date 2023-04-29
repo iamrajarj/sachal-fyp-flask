@@ -68,15 +68,15 @@ Predict
         $.ajax({
             url: '/predictapi', // URL for your Flask route that handles the image upload
             type: 'POST',
-            data: {"city_name":city_name},
+            data: {"city_name":"city_name"},
             success: function (response) {
                 
                 console.log(response);
                 console.log(response.path);
                 // Handle success response
-                img_path1 = "http://127.0.0.1:5000/static/predict/"+response.path.model1;
-                img_path2 = "http://127.0.0.1:5000/static/predict/"+response.path.model2;
-                img_path3 = "http://127.0.0.1:5000/static/predict/"+response.path.model3;
+                img_path1 = "http://127.0.0.1:5000/static/predict/"+response.path.mod1;
+                img_path2 = "http://127.0.0.1:5000/static/predict/"+response.path.mod2;
+                img_path3 = "http://127.0.0.1:5000/static/predict/"+response.path.mod3;
                 $('.result-here').html('\
                 <img src="'+img_path1+'" alt="error in showing this image" width="1200px" height="1200px" style="margin:0; padding:0;">\
                 <img src="'+img_path2+'" alt="error in showing this image" width="1200px" height="1200px" style="margin:0; padding:0;">\
