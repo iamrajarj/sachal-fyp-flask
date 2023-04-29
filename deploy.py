@@ -51,6 +51,7 @@ def predictapi():
     try:
         app.logger.info("apicall")
         # # Send a POST request to the Flask API with the image file as data
+        ##
         response = requests.post("http://192.168.100.8:5000/predict", json={'file':"here"})
         prediction = response.json()
         app.logger.info(prediction)
