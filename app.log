@@ -167,3 +167,4 @@
 2023-04-30 01:01:45,544 - INFO - apicall
 2023-04-30 01:01:51,978 - INFO - apicall
 2023-04-30 01:02:38,436 - INFO - {'path': {'model1': 'test-model1-38889013_plot.png', 'model2': 'test-model2-38889013_plot.png', 'model3': 'test-model3-38889013_plot.png'}, 'success': 'true'}
+2023-04-30 01:02:46,542 - INFO - {'path': {'model1': 'test-model1-92410643_plot.png', 'model2': 'test-model2-92410643_plot.png', 'model3': 'test-model3-92410643_plot.png'}, 'success': 'true'}
